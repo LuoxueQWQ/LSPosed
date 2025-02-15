@@ -4,7 +4,7 @@ allow shell shell dir write
 
 type xposed_file file_type
 typeattribute xposed_file mlstrustedobject
-allow {dex2oat installd isolated_app shell} xposed_file {file dir} *
+allow {dex2oat installd isolated_app shell} {xposed_file adb_data_file} {file dir} *
 
 allow dex2oat unlabeled file *
 
