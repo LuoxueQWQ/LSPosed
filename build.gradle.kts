@@ -64,8 +64,8 @@ val injectedPackageName by extra("com.android.shell")
 val injectedPackageUid by extra(2000)
 
 val defaultManagerPackageName by extra("org.lsposed.manager")
-val verCode by extra(1001501)  // 假设你希望版本代码是 1151
-val verName by extra("v1.15.1")  // 固定版本名称为 v1.15.1
+val verCode by extra(1001501)
+val verName by extra("1.15.1")
 val androidTargetSdkVersion by extra(35)
 val androidMinSdkVersion by extra(32)
 val androidBuildToolsVersion by extra("35.0.0")
