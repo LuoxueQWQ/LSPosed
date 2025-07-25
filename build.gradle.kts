@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
  *
- * Copyright (C) 2021 - 2022 LSPosed Contributors
+ * Copyright (C) 2021 - 2025 LSPosed Contributors
  */
 
 import com.android.build.api.dsl.ApplicationDefaultConfig
@@ -67,7 +67,7 @@ val defaultManagerPackageName by extra("org.lsposed.manager")
 val verCode by extra(1001502)
 val verName by extra("1.15.2")
 val androidTargetSdkVersion by extra(36)
-val androidMinSdkVersion by extra(27)
+val androidMinSdkVersion by extra(32)
 val androidBuildToolsVersion by extra("36.0.0")
 val androidCompileSdkVersion by extra(36)
 val androidCompileNdkVersion by extra("29.0.13113456")
